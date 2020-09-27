@@ -30,6 +30,24 @@ export class Header extends Component {
                     </label>
                     <input type="submit" value="Submit" />
                 </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            
+                        </svg>
+                        <span class="user-nav__notification">7</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon"/>
+                            
+                        <span class="user-nav__notification">13</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo"/>
+                        <span class="user-nav__user-name">Jonas</span>
+                    </div>
+                </nav>
             </header>
             
         )
