@@ -26,6 +26,23 @@ function Main() {
           />
         </figure>
       </div>
+      <div class="overview__stars">
+        <svg class="overview__icon-star">
+          <use xlinkHref="img/sprite.svg#icon-star"></use>
+        </svg>
+        <svg class="overview__icon-star">
+          <use xlinkHref="img/sprite.svg#icon-star"></use>
+        </svg>
+        <svg class="overview__icon-star">
+          <use xlinkHref="img/sprite.svg#icon-star"></use>
+        </svg>
+        <svg class="overview__icon-star">
+          <use xlinkHref="img/sprite.svg#icon-star"></use>
+        </svg>
+        <svg class="overview__icon-star">
+          <use xlinkHref="img/sprite.svg#icon-star"></use>
+        </svg>
+      </div>
     </main>
   );
 }
