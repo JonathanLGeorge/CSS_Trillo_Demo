@@ -4,7 +4,7 @@ export class Header extends Component {
   render() {
     return (
       <header class="header">
-        <img src="img/logo.png" alt="trillo logo" class="logo" />
+        <img src="img/logo.png" alt="custom logo" class="logo" />
 
         <form action="#" class="search">
           <input

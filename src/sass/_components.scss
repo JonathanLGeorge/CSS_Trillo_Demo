@@ -64,13 +64,14 @@
   &__icon {
     height: 2rem;
     width: 2rem;
-    fill: var(--color-grey-dark-3);
+    fill: greenyellow;
   }
 }
 
 ///////////////////////////////////////
 // USER NAVIGATION
 .user-nav {
+  //this will fill the entire height
   align-self: stretch;
 
   display: flex;
@@ -89,6 +90,7 @@
   }
 
   &__icon-box {
+    //this will take care of the flex position because its parent in aligned to center
     position: relative;
   }
 
@@ -158,6 +160,7 @@
     width: 3px;
     background-color: var(--color-primary);
     transform: scaleY(0);
+
     transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
       background-color 0.1s;
   }
@@ -179,6 +182,7 @@
     text-transform: uppercase;
     display: block;
     padding: 1.5rem 3rem;
+    //remember z index needs a position to be defines in order to use
     position: relative;
     z-index: 10;
 
@@ -197,8 +201,8 @@
   }
 
   &__icon {
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 2rem;
+    height: 2rem;
     margin-right: 2rem;
     fill: currentColor;
 

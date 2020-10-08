@@ -276,7 +276,7 @@ body {
 .search__icon {
   height: 2rem;
   width: 2rem;
-  fill: var(--color-grey-dark-3);
+  fill: greenyellow;
 }
 
 .user-nav {
@@ -442,8 +442,8 @@ body {
 }
 
 .side-nav__icon {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 2rem;
+  height: 2rem;
   margin-right: 2rem;
   fill: currentColor;
 }
