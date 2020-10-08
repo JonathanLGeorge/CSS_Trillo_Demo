@@ -14,7 +14,7 @@ export class Header extends Component {
           />
           <button class="search__button">
             <svg class="search__icon">
-              <use xlinkHref="img/sprite.svg#icon-magnifying-glass"></use>
+              <use href="img/sprite.svg#icon-magnifying-glass"></use>
             </svg>
           </button>
         </form>
@@ -22,13 +22,13 @@ export class Header extends Component {
         <nav class="user-nav">
           <div class="user-nav__icon-box">
             <svg class="user-nav__icon">
-              <use xlinkHref="img/sprite.svg#icon-bookmark"></use>
+              <use href="img/sprite.svg#icon-bookmark"></use>
             </svg>
             <span class="user-nav__notification">7</span>
           </div>
           <div class="user-nav__icon-box">
             <svg class="user-nav__icon">
-              <use xlinkHref="img/sprite.svg#icon-chat"></use>
+              <use href="img/sprite.svg#icon-chat"></use>
             </svg>
             <span class="user-nav__notification">13</span>
           </div>

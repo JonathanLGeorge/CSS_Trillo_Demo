@@ -17,23 +17,37 @@ function Main() {
           <img src={hotel_3} alt="Photo of hotel 3" class="gallery__photo" />
         </figure>
       </div>
-      <div class="overview__stars">
-        <svg class="overview__icon-star">
-          <use href={icon_star}></use>
-        </svg>
-        <svg class="overview__icon-star">
-          <use href={icon_star}></use>
-        </svg>
-        <svg class="overview__icon-star">
-          <use href={icon_star}></use>
-        </svg>
-        <svg class="overview__icon-star">
-          <use href={icon_star}></use>
-        </svg>
+      <div class="overview">
+        <h1 class="overview__heading">Hotel Las Palmas</h1>
+        <div class="overview__stars">
+          <svg class="overview__icon-star">
+            <use href={icon_star}></use>
+          </svg>
+          <svg class="overview__icon-star">
+            <use href={icon_star}></use>
+          </svg>
+          <svg class="overview__icon-star">
+            <use href={icon_star}></use>
+          </svg>
+          <svg class="overview__icon-star">
+            <use href={icon_star}></use>
+          </svg>
 
-        <svg class="overview__icon-star">
-          <use href={icon_star}></use>
-        </svg>
+          <svg class="overview__icon-star">
+            <use href={icon_star}></use>
+          </svg>
+        </div>
+        <div class="overview__location">
+          <svg class="overview__icon-location">
+            <use href="img/sprite.svg#icon-location-pin"></use>
+          </svg>
+          <button class="btn-inline">Albufeira, Portugal</button>
+        </div>
+
+        <div class="overview__rating">
+          <div class="overview__rating-average">8.6</div>
+          <div class="overview__rating-count">429 votes</div>
+        </div>
       </div>
     </main>
   );
