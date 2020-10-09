@@ -3,6 +3,7 @@ import hotel_1 from "../img/hotel-1.jpg";
 import hotel_2 from "../img/hotel-2.jpg";
 import hotel_3 from "../img/hotel-3.jpg";
 import icon_star from "../img/SVG/star.svg";
+import Description from "./Description";
 function Main() {
   return (
     <main className="hotel-view">
@@ -21,10 +22,10 @@ function Main() {
         <h1 class="overview__heading">Hotel Las Palmas</h1>
         <div class="overview__stars">
           <svg class="overview__icon-star">
-            <use href={icon_star}></use>
+            <use href="../img/symbol-defs.svg#icon-magnifying-glass"></use>
           </svg>
           <svg class="overview__icon-star">
-            <use href={icon_star}></use>
+            <use href="../img/sprite.svg#icon-star"></use>
           </svg>
           <svg class="overview__icon-star">
             <use href={icon_star}></use>
@@ -49,6 +50,7 @@ function Main() {
           <div class="overview__rating-count">429 votes</div>
         </div>
       </div>
+      <Description />
     </main>
   );
 }
